@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Zen Old Mincho";
+  font-weight: 400;
+  src: url("../public/fonts/ZenOldMincho-Medium.woff");
+}
+
+@font-face {
+  font-family: "Zen Old Mincho";
+  font-weight: 900;
+  src: url("../public/fonts/ZenOldMincho-Black.woff");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../public/images/stars_milky_way.webp");
+}
+
+.App {
+  height: 100vh;
+}

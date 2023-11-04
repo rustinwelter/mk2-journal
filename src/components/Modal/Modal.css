@@ -1,0 +1,53 @@
+.vn {
+  user-select: none;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.vn img {
+  height: 100vh;
+}
+
+.msgBox {
+  position: absolute;
+  width: 90%;
+  height: 32%;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(25, 50, 25, 0.97);
+  color: rgb(200, 200, 200);
+  border-radius: 1rem;
+  transition: opacity 1500ms ease-in-out;
+}
+
+.character {
+  margin: 2.5vh 2.5vw 1.5vh;
+  font-size: 4vh;
+  font-weight: 900;
+}
+
+.speech {
+  margin: 0 5vw;
+  font-size: 3.5vh;
+}
+
+.controls {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  bottom: 5%;
+}
+
+button {
+  background-color: yellowgreen;
+  font-size: 2.7vh;
+  padding: 0.8%;
+  margin: 0 5%;
+  border-radius: 50%;
+  font-family: "Zen Old Mincho", serif;
+}
+
+button:hover {
+  background-color: greenyellow;
+}
